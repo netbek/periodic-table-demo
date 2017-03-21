@@ -1,0 +1,30 @@
+main {
+  padding: 1em 0;
+  text-align: center;
+}
+
+header {
+  text-align: left;
+}
+
+.constraint {
+  margin: 0 auto;
+  padding: 0 1em;
+
+  &--content {
+    max-width: 62em;
+  }
+}
+
+// Define vars that should override defaults
+$nb-periodic-table-cell-bg:                       #eee;
+$nb-periodic-table-cell-border:                   #ccc;
+
+// Load default vars
+@import 'node_modules/periodic-table/src/css/periodic-table';
+
+// Wide breakpoint
+@media (min-width: 82em) {
+  @include periodic-table-color('category');
+  @include periodic-table-size('wide');
+}
