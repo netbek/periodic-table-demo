@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@netbek/periodic-table@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@netbek/periodic-table/-/periodic-table-0.1.15.tgz#33581956cf5071a4ec593f8e0b5374f49800f55a"
+  dependencies:
+    normalize-css "git://github.com/necolas/normalize.css.git#02c5c7adbbec1707900fde86068405735c733b42"
+
 a-sync-waterfall@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/a-sync-waterfall/-/a-sync-waterfall-1.0.0.tgz#38e8319d79379e24628845b53b96722b29e0e47c"
@@ -2161,12 +2167,6 @@ path-type@^1.0.0:
 performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
-
-"periodic-table@https://github.com/netbek/periodic-table/tarball/master":
-  version "0.1.14"
-  resolved "https://github.com/netbek/periodic-table/tarball/master#16fd1c68e88e61da92d1f61b853bccb53e67cf88"
-  dependencies:
-    normalize-css "git://github.com/necolas/normalize.css.git#02c5c7adbbec1707900fde86068405735c733b42"
 
 pify@^2.0.0:
   version "2.3.0"

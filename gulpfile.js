@@ -136,7 +136,7 @@ gulp.task('build-demo-css', function (cb) {
 });
 
 gulp.task('build-demo-page', function (cb) {
-  var dir = path.dirname(require.resolve('periodic-table'));
+  var dir = path.dirname(require.resolve('@netbek/periodic-table'));
   var categories;
   var elements;
 

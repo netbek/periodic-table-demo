@@ -21,7 +21,7 @@ $nb-periodic-table-cell-bg:                       #eee;
 $nb-periodic-table-cell-border:                   #ccc;
 
 // Load default vars
-@import 'node_modules/periodic-table/src/css/periodic-table';
+@import 'node_modules/@netbek/periodic-table/src/css/periodic-table';
 
 // Wide breakpoint
 @media (min-width: 82em) {
