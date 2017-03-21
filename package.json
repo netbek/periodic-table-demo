@@ -23,7 +23,7 @@
     "url": "https://github.com/netbek/periodic-table-demo/issues"
   },
   "devDependencies": {
-    "@netbek/periodic-table": "^0.1.15",
+    "@netbek/periodic-table": "^0.1.16",
     "autoprefixer": "^6.7.6",
     "bluebird": "^3.4.6",
     "bourbon": "~4.2.6",
