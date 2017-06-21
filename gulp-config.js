@@ -16,7 +16,8 @@ module.exports = {
     'params': {
       'includePaths': [
         'node_modules/bourbon/app/assets/stylesheets/',
-        'node_modules/chrys/src/css/'
+        'node_modules/chrys/src/css/',
+        'node_modules/@netbek/periodic-table/src/css/'
       ],
       'errLogToConsole': true
     }

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@netbek/periodic-table@^0.1.35":
-  version "0.1.35"
-  resolved "https://registry.yarnpkg.com/@netbek/periodic-table/-/periodic-table-0.1.35.tgz#be076f0a81efe9afb7b969a4cfcfddaa9243c55d"
+"@netbek/periodic-table@^0.1.38":
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/@netbek/periodic-table/-/periodic-table-0.1.38.tgz#b72cbb79a7e947e3d7273b9bbb50582f2497d89e"
   dependencies:
     normalize-css "git://github.com/necolas/normalize.css.git#02c5c7adbbec1707900fde86068405735c733b42"
 

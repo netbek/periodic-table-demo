@@ -1,3 +1,5 @@
+@import 'node_modules/@netbek/periodic-table/src/css/mixins';
+
 main {
   padding: 1em 0;
   text-align: center;
@@ -21,9 +23,14 @@ $nb-periodic-table-cell-bg:                       #eee;
 $nb-periodic-table-cell-border:                   #ccc;
 
 // Load default vars
-@import 'node_modules/@netbek/periodic-table/src/css/periodic-table';
+@import 'node_modules/@netbek/periodic-table/src/css/variables';
 
-// Wide breakpoint
+// Mobile-first layout
+@include nb-periodic-table-base;
+@include nb-periodic-table-color;
+@include nb-periodic-table-size;
+
+// Wide breakpoint layout
 @media (min-width: 82em) {
   @include nb-periodic-table-color('category');
   @include nb-periodic-table-size('wide');
