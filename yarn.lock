@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@netbek/periodic-table@^0.1.40":
-  version "0.1.40"
-  resolved "https://registry.yarnpkg.com/@netbek/periodic-table/-/periodic-table-0.1.40.tgz#b7fbbf40b3f5a9960154358317e47c8a72e2f73c"
+"@netbek/periodic-table@^0.1.42":
+  version "0.1.42"
+  resolved "https://registry.yarnpkg.com/@netbek/periodic-table/-/periodic-table-0.1.42.tgz#a0efaf8015817b59e24c17bdb9c9663530c4f952"
   dependencies:
     normalize-css "git://github.com/necolas/normalize.css.git#02c5c7adbbec1707900fde86068405735c733b42"
 
@@ -324,9 +324,9 @@ chokidar@^1.6.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chrys@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/chrys/-/chrys-1.0.2.tgz#ccf8a7f91ca2a5d1ef57789dd12e3894d2d261ea"
+chrys@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/chrys/-/chrys-1.0.4.tgz#7fb99e383daf1fdd20a84f4e08fe2299ef9545bf"
   dependencies:
     normalize-css "git://github.com/necolas/normalize.css.git#02c5c7adbbec1707900fde86068405735c733b42"
 
