@@ -20,12 +20,12 @@
     "url": "https://github.com/netbek/periodic-table-demo/issues"
   },
   "devDependencies": {
-    "@netbek/periodic-table": "^0.1.44",
+    "@netbek/periodic-table": "^0.1.45",
     "autoprefixer": "^8.4.1",
     "bluebird": "^3.5.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "chrys": "^2.0.1",
+    "chrys": "^2.0.2",
     "del": "^3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
