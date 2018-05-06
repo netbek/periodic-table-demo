@@ -1,6 +1,6 @@
 module.exports = {
-  'autoprefixer': {
-    'browsers': [
+  autoprefixer: {
+    browsers: [
       'last 2 versions',
       'ie >= 8',
       'ff >= 5',
@@ -12,46 +12,34 @@ module.exports = {
       'bb >= 6'
     ]
   },
-  'css': {
-    'params': {
-      'includePaths': [
-        'node_modules/bourbon/app/assets/stylesheets/',
+  css: {
+    params: {
+      includePaths: [
         'node_modules/chrys/src/css/',
         'node_modules/@netbek/periodic-table/src/css/'
       ],
-      'errLogToConsole': true
+      errLogToConsole: true
     }
   },
-  // 'dist': {
-  //   'css': 'css/'
-  // },
-  // 'src': {
-  //   'css': 'src/css/'
-  // },
-  'watchTasks': [
-    //
+  watchTasks: [
     {
-      files: [
-        'src/**/*'
-      ],
-      tasks: [
-        'build'
-      ]
+      files: ['src/**/*'],
+      tasks: ['build']
     }
   ],
-  'webserver': {
-    'host': 'localhost',
-    'port': 8000,
-    'path': '/',
-    'livereload': false,
-    'directoryListing': false,
-    'open': '/demo/',
-    'https': false,
-    'browsers': {
-      'default': 'firefox',
-      'darwin': 'google chrome',
-      'linux': 'google-chrome',
-      'win32': 'chrome'
+  webserver: {
+    host: 'localhost',
+    port: 8000,
+    path: '/',
+    livereload: false,
+    directoryListing: false,
+    open: '/demo/',
+    https: false,
+    browsers: {
+      default: 'firefox',
+      darwin: 'google chrome',
+      linux: 'google-chrome',
+      win32: 'chrome'
     }
   }
 };
