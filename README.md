@@ -8,7 +8,7 @@ Install or update local Node dependencies:
 
 ```
 cd /path/to/periodic-table-demo
-yarn install
+npm install
 ```
 
 ## Integration
