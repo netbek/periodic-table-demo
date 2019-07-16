@@ -23,13 +23,13 @@
     "eslint-scope": "3.7.1"
   },
   "devDependencies": {
-    "@netbek/periodic-table": "0.1.52",
+    "@netbek/periodic-table": "0.1.53",
     "autoprefixer": "8.6.5",
     "babel-eslint": "8.2.6",
     "bluebird": "3.5.5",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
-    "chrys": "2.0.10",
+    "chrys": "2.0.12",
     "del": "3.0.0",
     "eslint": "4.19.1",
     "eslint-config-airbnb": "16.1.0",
