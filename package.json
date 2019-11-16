@@ -29,7 +29,7 @@
     "bluebird": "3.7.1",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
-    "chrys": "2.0.21",
+    "chrys": "2.0.27",
     "del": "3.0.0",
     "eslint": "4.19.1",
     "eslint-config-airbnb": "16.1.0",
@@ -63,7 +63,7 @@
     "postcss": "6.0.23",
     "postcss-color-rgba-fallback": "3.0.0",
     "postcss-opacity": "5.0.0",
-    "prettier": "1.18.2",
+    "prettier": "1.19.1",
     "run-sequence": "2.2.1"
   }
 }
