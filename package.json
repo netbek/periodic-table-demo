@@ -54,7 +54,7 @@
     "gulp-webserver": "0.9.1",
     "livereload": "0.9.3",
     "lodash": "4.17.21",
-    "mocha": "5.2.0",
+    "mocha": "10.2.0",
     "node-sass": "7.0.3",
     "nunjucks": "3.2.3",
     "open": "0.0.5",
